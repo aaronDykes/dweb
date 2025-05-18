@@ -1,0 +1,23 @@
+@import "../style.scss";
+
+.drop-content-visible {
+  display: flex;
+  flex-direction: column;
+
+  .page {
+    padding: 1rem;
+    margin-left: 1rem;
+
+    a {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+
+.drop-content-hidden {
+  display: none;
+}

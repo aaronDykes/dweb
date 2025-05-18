@@ -1,0 +1,30 @@
+@import "../style.scss";
+
+.nav {
+  @include flex(column, 0, white);
+  padding: 2rem;
+  margin: 1rem;
+
+  #menu,
+  #menu:active {
+    @include linkDecoration(8rem, bold);
+  }
+
+  .gallery {
+    @include flex(0, 0, 0, 0, center);
+
+    .drop-btn {
+      @include linkDecoration(2.5rem, bold);
+    }
+
+    .vertical {
+      transform: rotate(-90deg);
+    }
+  }
+
+  .n-item {
+    margin: 1rem;
+    flex: 1 1 100%;
+    display: flex;
+  }
+}
