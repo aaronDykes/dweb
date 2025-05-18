@@ -77,6 +77,15 @@ a,
 a:active {
   @include linkDecoration(2.5rem, bold);
 }
+p {
+  text-align: left;
+}
+ul {
+  text-align: left;
+  h2 {
+    color: black;
+  }
+}
 
 h2 {
   color: $m_grey;
