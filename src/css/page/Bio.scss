@@ -1,0 +1,37 @@
+@import "../style.scss";
+
+#home {
+  @include flex(0, stretch);
+}
+
+.h-icon {
+  font-size: 6rem;
+  color: $d_grey;
+}
+
+.h-name {
+  @include txtDecoration(2rem, lighter);
+  text-align: center;
+  letter-spacing: 0rem;
+  margin: 2rem;
+//  color: $d_grey;
+
+  
+}
+
+.h-content-visible {
+  @include flexChild(1 1 100%, column, space-between, 0, $vl_grey);
+}
+
+.h-content-hidden {
+  @include flexChild(1 1 100%, column, space-between, 0, $vl_grey);
+}
+
+.h-nav-visible {
+  @include flexChild(1 1 25%, column);
+}
+
+.h-nav-hidden {
+  display: none;
+}
+

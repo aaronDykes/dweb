@@ -19,6 +19,9 @@ export default function Nav({ clicked, setClicked }) {
       <div className="n-item">
         <Link to="/">Home</Link>
       </div>
+      <div className="n-item">
+        <Link to="/biography">Biography</Link>
+      </div>
       <div className="n-item gallery">
         <Link onClick={() => setVertical(!vert)}>Gallery</Link>
         <RiArrowDownSLine
