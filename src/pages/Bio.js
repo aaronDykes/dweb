@@ -64,8 +64,6 @@ export default function Home() {
                                     Take a few moments to sit with this understanding. When you feel ready, gently bring your awareness back to your surroundings, carrying this sense of acceptance with you.
                               </p>
                         </div>
-
-
                   </div>
             </div >
       );

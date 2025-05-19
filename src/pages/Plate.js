@@ -43,34 +43,6 @@ export default function Plate() {
         <div className="photos">
           <Gal2 />
         </div>
-
-        <br />
-        <br />
-        <br />
-        <br />
-
-        <div className="h-name">
-          <ul>
-            <li>
-              <h2> Image 1</h2>
-              Begin by finding a comfortable posture, allowing your body to relax. Close your eyes gently, or soften your gaze.
-            </li>
-            <br />
-            <li>
-              <h2> Image 2</h2>
-              Notice your breath as it enters and leaves your body. Don't try to change it, simply observe the natural rhythm.
-            </li>
-            <br />
-            <li>
-              <h2> Image 3</h2>
-              Now, bring your awareness to this very moment. This breath. This feeling in your body. This sound you might hear.
-            </li>
-            <br />
-          </ul>
-
-          <br />
-        </div>
-
       </div>
     </div>
   );
