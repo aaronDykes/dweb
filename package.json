@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@emailjs/browser": "^4.4.1",
     "gh-pages": "^5.0.0"
   }
 }

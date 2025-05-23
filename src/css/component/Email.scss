@@ -1,0 +1,58 @@
+@import "../style.scss";
+
+
+
+// #home {
+//   @include flex(0, stretch, $blue);
+// }
+
+
+#form {
+  text-align: left;
+  margin: 8rem;
+}
+textarea {
+  @include txtDecoration(1rem, lighter);
+  padding: 5rem;
+  border-radius: 1rem;
+}
+
+
+.form_input_label {
+  @include txtDecoration(1rem, lighter);
+  margin: 2rem;
+
+
+}
+
+.form_input {
+  @include txtDecoration(1rem, lighter);
+  padding: 1rem;
+
+}
+
+// .h-content-visible {
+//   @include flexChild(1 1 100%, column, space-between, 0, $blue);
+// }
+
+// .h-content-hidden {
+//   @include flexChild(1 1 100%, column, space-between, 0, $blue);
+// }
+
+.h-nav-visible {
+  @include flexChild(1 1 25%, column);
+}
+.h-nav-hidden {
+  display: none;
+}
+
+// .h-form-visible {
+//   color: $d_orange;
+// }
+.h-form-hidden {
+  visibility: hidden;
+}
+
+#privyLink {
+  @include txtDecoration(1rem, bold);
+}
