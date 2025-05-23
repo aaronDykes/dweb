@@ -14,7 +14,7 @@ export default function Nav({ contact }) {
         <Link to="/inquire">inquire</Link>
       </div>
       <div className="page">
-        <h2>613-286-6265</h2>
+        <h2>510-833-3848</h2>
       </div>
       <div className="page">
         <a href="mailto:philipdykesphotographer@gmail.com">philipdykesphotographer@gmail.com</a>
